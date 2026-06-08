@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🗳️ Group Poll — On-Chain Voting dApp
 
-## Getting Started
+A decentralized polling app where a group of friends can create 
+multiple choice polls and vote on-chain. Every vote is permanent, 
+transparent and tamper-proof on the blockchain.
 
-First, run the development server:
+## Built With
+- Solidity — Smart contract
+- Foundry — Contract development & deployment
+- Next.js 14 — Frontend
+- Wagmi + Viem — Wallet connection & blockchain interaction
+- Tailwind CSS — Styling
+- Base Sepolia — Testnet deployment
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
+- Connect wallet (MetaMask)
+- Create multiple choice polls (2-6 options)
+- Vote on-chain
+- Live vote counts with percentage bars
+- Network switching built in
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contract
+Deployed on Base Sepolia:
+0x62c00F09F8DaA6056Ad4F994BB2CF338D4e4Dc94
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+Built by Gary Kaufmann — first ever Web3 dApp 🚀
+Day 1 of my Web3 developer journey.
